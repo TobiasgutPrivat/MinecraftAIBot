@@ -1,3 +1,5 @@
 import Bot from "./Bot";
+import ask from "./AI/api";
 
-const hugo = new Bot("Hugo");
+ask("Hello").then((response: string) => console.log(response));
+// const hugo = new Bot("Hugo");

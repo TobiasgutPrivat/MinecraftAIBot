@@ -14,6 +14,7 @@
   "dependencies": {
     "mineflayer": "^4.33.0",
     "mineflayer-pathfinder": "^2.4.5",
+    "openai": "^6.15.0",
     "prismarine-viewer": "^1.29.0",
     "punycode": "^2.3.1"
   },
