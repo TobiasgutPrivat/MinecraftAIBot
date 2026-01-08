@@ -1,4 +1,4 @@
-import Bot from "../Bot";
+import {Bot} from "mineflayer";
 import checkAbort from "./Abort";
 
 function GetItem(bot: Bot, item: string) {
@@ -10,7 +10,6 @@ function gatherItem(bot: Bot, item: number) { // get id from bot.bot.registry.it
     checkAbort(bot);
     //gather item
 
-    const mineableBlocks = Object.values(bot.bot.registry.blocks).filter(block => block.drops?.includes(item));
+    const mineableBlocks = Object.values(bot.registry.blocks).filter(block => block.drops?.includes(item));
 
-        bot.bot.dig
 }

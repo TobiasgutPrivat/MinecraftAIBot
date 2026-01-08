@@ -1,3 +1,3 @@
-import Bot from "./Bot";
+import createBot from "./src/Bot";
 
-const hugo = new Bot("Hugo");
+const hugo = createBot("Hugo");
