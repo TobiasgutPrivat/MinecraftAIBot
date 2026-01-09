@@ -1,7 +1,7 @@
 import mineflayer from "mineflayer";
 import { pathfinder } from "mineflayer-pathfinder";
 import task from "./Task/Task";
-import tpsScoreboard from "./TpsScoreboard";
+import tpsScoreboard from "./lib/TpsScoreboard";
 
 function createBot(username: string): void {
     // create bot
